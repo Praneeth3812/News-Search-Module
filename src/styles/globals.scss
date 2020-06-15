@@ -1,0 +1,185 @@
+
+// Spinner 
+.spinner  {
+  position: fixed;
+  top : 50%;
+  left : 50%;
+   transform: translate(-50%, -50%);
+}
+
+//Buttons
+.btn-link{
+  color: #333;
+  &:hover{
+    color: #000;
+  }
+}
+//for filter
+.filter{
+  &-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    i{
+      padding-right: 15px;
+      font-size: 16px;
+    }
+  }
+  &-info{
+    background-color: #f0f0f0;
+    padding: 15px;
+  }
+}
+
+.card-header{
+  border-bottom: none;
+  background-color: transparent;
+  height: 165px;
+  padding: 0;
+}
+
+// for newsCards
+.news-card{
+  height: 100%;
+  cursor: pointer;
+  &-row{
+    &>div{
+      margin-bottom: 15px;
+    }
+  }
+  &-img{
+    margin-bottom: 20px;
+    img{
+      max-height: 400px;
+    }
+  }
+  &-detail{
+    padding: 30px 0;
+    .btn{
+      padding-left: 0;
+      padding-right: 0;
+    }
+    h2{
+      margin: 15px 0 20px 0;
+    }
+    .info-box{
+      padding-bottom: 20px;
+      h3{
+        font-size: 20px;
+      }
+    }
+    .author-name{
+      font-size: 18px;
+      margin: 0;
+    }
+  }
+}
+
+// date picker
+.react-datepicker-wrapper{
+  flex: 1;
+  input{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+
+
+
+//Search Auto Suggestions
+.news-search-row{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 100%;
+  height: 38px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: absolute;
+  top: 51px;
+  left: 13px;
+  width: 80%;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+.react-autosuggest__section-container {
+  border-top: 1px dashed #ccc;
+}
+
+.react-autosuggest__section-container--first {
+  border-top: 0;
+}
+
+.react-autosuggest__section-title {
+  padding: 10px 0 0 10px;
+  font-size: 12px;
+  color: #777;
+} 
+
+//search icon 
+.search-icon {
+  position: absolute;
+  top  :10px;
+  left :20px;
+}
